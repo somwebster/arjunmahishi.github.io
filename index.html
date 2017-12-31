@@ -3,18 +3,26 @@
 <head>
 	<title>Fnplus</title>
 
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#000" />
 
     <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/icon.png">
     <link rel="icon" type="image/png" href="/assets/icons/icon.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/assets/icons/icon.png" sizes="16x16">
     <link rel="manifest" href="./manifest.json">
-
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+     <script>
+	    jQuery(window).load(function(){
+		jQuery(".hameid-loader-overlay").fadeOut(500);
+	    });
+    </script>
+		
+	
 </head>
 
 <body background="https://i.imgur.com/QQGHWRK.png" style="font-size: larger; >
+<div class="hameid-loader-overlay"></div>							  
 
     <div class="page" id="main">
         <h1><span class="name">Fnplus</span></h1>
